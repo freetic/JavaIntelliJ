@@ -11,7 +11,7 @@ public class PersonalInfomation {
 
         String name = sc.next();
         int bornYear = sc.nextInt();
-        int age = cal.getWeekYear() - WbornYear+ 1;
+        int age = cal.getWeekYear() - bornYear+ 1;
         String zodiacSign="";
         System.out.println(1991%12);
 

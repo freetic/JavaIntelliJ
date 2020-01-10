@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class WhileDemo {
     public static void main(String[] args) {
         /*int result = 0;
@@ -33,5 +31,11 @@ public class WhileDemo {
 
 
 
+
     }
+}
+
+class Car{
+    int price;
+    String name;
 }

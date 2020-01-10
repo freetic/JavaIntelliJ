@@ -36,17 +36,30 @@ public class Test {
         }
         System.out.println(result);*/
 
-        Scanner sc = new Scanner(System.in);
-        System.out.print(""); int n = sc.nextInt();
-        for(int i=0; i < n; i++) {
-            if( i < n/2+1){
-                for (int j = 0; j < n - i - 1; j++) System.out.print(" \t");
-                for (int j = 0; j < 2 * i + 1; j++) System.out.print("*\t");
-            }else{ // i=6 j=
-                for (int j = 0; j < ; j++) System.out.print(" \t");
-                for (int j = 0; j < i + 1; j++) System.out.print("*\t");
+        Scanner scan = new Scanner(System.in);
+        System.out.print("asas : ");
+        int su = scan.nextInt();
+        int num = su / 2 + 1;
+        System.out.printf("\n");
+
+        for (int i = 1; i <= num; i++) {
+            for (int j = num; j > i; j--) {
+                System.out.printf(" ");
             }
-            System.out.println();
+            for (int k = 0; k < i; k++) {
+                System.out.printf("* ");
+            }
+            System.out.printf("\n");
+        }
+
+        for (int i = 1 ; i < num ; i++){
+            for (int j = 0; j < i ; j++) {
+                System.out.printf(" ");
+            }
+            for (int j = num - 1 ; j >= i ; j--) {
+                System.out.print("* ");
+            }
+            System.out.printf("\n");
         }
     }
 }

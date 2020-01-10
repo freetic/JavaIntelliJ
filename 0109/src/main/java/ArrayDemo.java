@@ -18,11 +18,14 @@ public class ArrayDemo {
         // 배열의 초기화 같은 배열의 타입에 따라 달라진다.
         // 정수형 : 0, 실수형 : 0.0, boolean형 : false, char형: null값('\0', '\u0000')
         // 참조형 : null번지
-        boolean[] array = new boolean[4];
+        /*boolean[] array = new boolean[4];
         for(int i=0; i<4; i++) System.out.println(array[i]);
         for(int i=0; i<array.length; i++){
             System.out.println(array[i]);
-        }
+        }*/
+
+
+
     }
 }
 
