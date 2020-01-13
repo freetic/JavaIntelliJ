@@ -15,6 +15,6 @@ public class Change {
         int won5 = 0;
         int won1 = 0;
 
-        
+
     }
 }
