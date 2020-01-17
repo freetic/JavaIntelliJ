@@ -3,11 +3,12 @@ public class CastDemo {
         Test t = new Test();
         Demo d = new Demo();
 
-            if(t instanceof Demo){
-                d = (Demo)t;
-            }else{
-                System.out.println("형 변환 불가.");
-            }
+        if(t instanceof Demo){
+            d = (Demo)t;
+        }else{
+            System.out.println("형 변환 불가.");
+        }
+
     }
 
 }
